@@ -20,6 +20,6 @@ object AkkaHttpHelloWorld {
         }
       }
 
-    Http().bindAndHandle(route, "localhost", 8081)
+    Http().bindAndHandle(route, "localhost", 8080)
   }
 }

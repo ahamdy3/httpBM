@@ -10,5 +10,5 @@ object FinchHelloWorld extends App {
       Ok("alive")
     }
 
-  Await.ready(Http.server.serve(":8081", hello.toServiceAs[Text.Plain]))
+  Await.ready(Http.server.serve(":8080", hello.toServiceAs[Text.Plain]))
 }
