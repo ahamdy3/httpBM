@@ -9,9 +9,9 @@ Just another Scala Http frameworks benchmarking
 - Response timeout: 200 millis
 - Total requests: 400000
 
-#Frameworks:
+# Frameworks:
 
-###Http4s
+### Http4s:
 
 | Run           | Throughput (peak rps) | Time     |Errors   |
 | ------------- | --------------------- | -------- | ------- |
@@ -20,7 +20,7 @@ Just another Scala Http frameworks benchmarking
 | 3rd           | 16000                 | 00:00:25 |0.03%    |
 
 
-###Finch
+### Finch:
 
 | Run           | Throughput (peak rps) | Time     |Errors   |
 | ------------- | --------------------- | -------- | ------- |
@@ -29,7 +29,7 @@ Just another Scala Http frameworks benchmarking
 | 3rd           | 12600                 | 00:00:32 |1.44%    |
 
 
-###Akka Http
+### Akka Http:
 
 | Run           | Throughput (peak rps) | Time     |Errors   |
 | ------------- | --------------------- | -------- | ------- |
