@@ -12,7 +12,6 @@ Just another Scala Http frameworks benchmarking
 #Frameworks:
 
 ###Http4s
-#####First Run:
 
 | Run           | Throughput (peak rps) | Time     |Errors   |
 | ------------- | --------------------- | -------- | ------- |
@@ -22,7 +21,6 @@ Just another Scala Http frameworks benchmarking
 
 
 ###Finch
-#####First Run:
 
 | Run           | Throughput (peak rps) | Time     |Errors   |
 | ------------- | --------------------- | -------- | ------- |
