@@ -14,7 +14,7 @@ object Http4sHelloWorld extends ServerApp {
 
   override def server(args: List[String]): Task[Server] =
     BlazeBuilder
-    .bindHttp(8081, "0.0.0.0")
+    .bindHttp(8080, "0.0.0.0")
     .mountService(HttpService(route))
     .start
 }
